@@ -1,0 +1,445 @@
+{
+    "id": "4209",
+    "name": "Marketing Coach", 
+    "syntax": 4, 
+    "mobile": true, 
+    "version": 1.36, 
+    "notes": "TMP-432, copyright update", 
+    "style": {
+        "replacements": [
+            {
+                "type": "font", 
+                "name": "Main Font", 
+                "find": "'Source Sans Pro'"
+            }, 
+            {
+                "type": "color", 
+                "name": "Feature Stripe Background", 
+                "find": "#082545"
+            }, 
+            {
+                "type": "color", 
+                "name": "Background Color", 
+                "find": "#fffffc"
+            }, 
+            {
+                "type": "color", 
+                "name": "Feature Stripe Headline", 
+                "find": "#F8F8F8"
+            }, 
+            {
+                "type": "color", 
+                "name": "Feature Section Background", 
+                "find": "#1D4881"
+            }, 
+            {
+                "type": "color", 
+                "name": "Feature Sub Headline", 
+                "find": "#FFFDFD"
+            }, 
+            {
+                "type": "color", 
+                "name": "Feature List Text", 
+                "find": "#fefefe"
+            }, 
+            {
+                "type": "color", 
+                "name": "Feature Links", 
+                "find": "#fafafa"
+            }, 
+            {
+                "type": "color", 
+                "name": "Feature Book Subtitle", 
+                "find": "#F7F2F2"
+            }, 
+            {
+                "type": "color", 
+                "name": "Feature Button Text", 
+                "find": "#FFFCFC"
+            }, 
+            {
+                "type": "color", 
+                "name": "Feature Button Background", 
+                "find": "#ff6600"
+            }, 
+            {
+                "type": "color", 
+                "name": "Feature Button Hover", 
+                "find": "#ff4100"
+            }, 
+            {
+                "type": "color", 
+                "name": "Feature Button Shadow", 
+                "find": "#cc3300"
+            }, 
+            {
+                "type": "color", 
+                "name": "Feature Privacy Text", 
+                "find": "#F7F5F5"
+            }, 
+            {
+                "type": "color", 
+                "name": "Content Section Text", 
+                "find": "#070707"
+            }, 
+            {
+                "type": "color", 
+                "name": "Testimonial Text", 
+                "find": "#6D6D6D"
+            }, 
+            {
+                "type": "color", 
+                "name": "Footer Border Top", 
+                "find": "#efefef"
+            }, 
+            {
+                "type": "color", 
+                "name": "Footer Background", 
+                "find": "#F5F5F5"
+            }, 
+            {
+                "type": "color", 
+                "name": "Footer Left Text", 
+                "find": "#666666"
+            }, 
+            {
+                "type": "color", 
+                "name": "Footer Right Text", 
+                "find": "#6B6B6B"
+            }
+        ], 
+        "html": ""
+    }, 
+    "elements": [
+        {
+            "type": "container", 
+            "id": "main-page-id", 
+            "name": "main-page-id"
+        }, 
+        {
+            "comment": "Hide or show header section.", 
+            "type": "container", 
+            "id": "header-container-id", 
+            "name": "Header"
+        }, 
+        {
+            "comment": "Insert your header image here. Recomended size is 956 x 54 pixels.", 
+            "data": {
+                "max-width": 956, 
+                "max-height": 54
+            }, 
+            "type": "image-link", 
+            "id": "header-link-id", 
+            "name": "Header Image"
+        }, 
+        {
+            "type": "container", 
+            "id": "banner-container-id", 
+            "name": "banner-container-id"
+        }, 
+        {
+            "type": "container", 
+            "id": "banner-headline-id", 
+            "name": "Banner Headline"
+        }, 
+        {
+            "type": "container", 
+            "id": "body-wrapper-id", 
+            "name": "body-wrapper-id"
+        }, 
+        {
+            "comment": "Insert your headline text here.", 
+            "type": "text", 
+            "id": "content-headline-id", 
+            "name": "Content Headline"
+        }, 
+        {
+            "type": "container", 
+            "id": "book-main-id", 
+            "name": "Book Section"
+        }, 
+        {
+            "type": "container", 
+            "id": "book-left-id", 
+            "name": "book-left-id"
+        }, 
+        {
+            "comment": "Insert your header image here. Recomended size is 367 x 473 pixels.", 
+            "data": {
+                "max-width": 367
+            }, 
+            "type": "image", 
+            "id": "book-id", 
+            "name": "Book"
+        }, 
+        {
+            "comment": "Insert your book subtitle text here.", 
+            "type": "text", 
+            "id": "book-subtext-id", 
+            "name": "Book Subtitle"
+        }, 
+        {
+            "type": "container", 
+            "id": "book-right-id", 
+            "name": "book-right-id"
+        }, 
+        {
+            "comment": "Insert your sub headline text here.", 
+            "type": "text", 
+            "id": "content-subheadline-id", 
+            "name": "Content Sub Headline"
+        }, 
+        {
+            "comment": "Hide or display all bullets.", 
+            "type": "container", 
+            "id": "feature-content-id", 
+            "name": "Feature Content"
+        }, 
+        {
+            "type": "container", 
+            "id": "fa-ul-id", 
+            "name": "fa-ul-id"
+        }, 
+        {
+            "type": "container", 
+            "id": "fa-li-id", 
+            "name": "fa-li-id"
+        }, 
+        {
+            "comment": "Change your icon here. Recomended size is 16 x 16 pixels.", 
+            "data": {
+                "max-width": 16, 
+                "max-height": 16
+            }, 
+            "type": "image", 
+            "id": "bullet-icon1-id", 
+            "name": "Bullet Icon 01"
+        }, 
+        {
+            "comment": "Insert your list item text here.", 
+            "type": "text", 
+            "id": "list-item01-id", 
+            "name": "List Text 01"
+        }, 
+        {
+            "type": "container", 
+            "id": "fa-li1-id", 
+            "name": "fa-li1-id"
+        }, 
+        {
+            "comment": "Change your icon here. Recomended size is 16 x 16 pixels.", 
+            "data": {
+                "max-width": 16, 
+                "max-height": 16
+            }, 
+            "type": "image", 
+            "id": "bullet-icon2-id", 
+            "name": "Bullet Icons 02"
+        }, 
+        {
+            "comment": "Insert your list item text here.", 
+            "type": "text", 
+            "id": "list-item02-id", 
+            "name": "List Text 02"
+        }, 
+        {
+            "type": "container", 
+            "id": "fa-li2-id", 
+            "name": "fa-li2-id"
+        }, 
+        {
+            "comment": "Change your icon here. Recomended size is 16 x 16 pixels.", 
+            "data": {
+                "max-width": 16, 
+                "max-height": 16
+            }, 
+            "type": "image", 
+            "id": "bullet-icon3-id", 
+            "name": "Bullet Icons 03"
+        }, 
+        {
+            "comment": "Insert your list item text here.", 
+            "type": "text", 
+            "id": "list-item03-id", 
+            "name": "List Text 03"
+        }, 
+        {
+            "type": "container", 
+            "id": "send-button-id", 
+            "name": "send-button-id"
+        }, 
+        {
+            "data": {
+                "href": "#/optin"
+            }, 
+            "type": "link", 
+            "id": "button-id", 
+            "name": "Button"
+        }, 
+        {
+            "comment": "Insert your header image here. Recomended size is 16 x 16 pixels.", 
+            "data": {
+                "max-width": 16, 
+                "max-height": 16
+            }, 
+            "type": "image", 
+            "id": "privacy-icon-id", 
+            "name": "Privacy Icon"
+        }, 
+        {
+            "comment": "Insert your privacy text here.", 
+            "type": "text", 
+            "id": "privacy-id", 
+            "name": "Privacy Text"
+        }, 
+        {
+            "type": "container", 
+            "id": "body-container-id", 
+            "name": "body-container-id"
+        }, 
+        {
+            "comment": "Insert your content text here.", 
+            "type": "text", 
+            "id": "content-id", 
+            "name": "Content"
+        }, 
+        {
+            "comment": "Hide or show divider.", 
+            "type": "container", 
+            "id": "testimonial-divider-id", 
+            "name": "Testimonial Divider"
+        }, 
+        {
+            "comment": "Hide or show this testimonial box.", 
+            "type": "container", 
+            "id": "testimonial-left-id", 
+            "name": "Testimonial 01"
+        }, 
+        {
+            "comment": "Insert your testimonial image here. Recomended size is 132 x 132 pixels. Image will automatically be rounded.", 
+            "data": {
+                "max-width": 132, 
+                "max-height": 132
+            }, 
+            "type": "image", 
+            "id": "testimonial-img01-id", 
+            "name": "Testimonial Image 01"
+        }, 
+        {
+            "type": "container", 
+            "id": "box-text-id", 
+            "name": "box-text-id"
+        }, 
+        {
+            "comment": "Enter your testimonial name here.", 
+            "type": "text", 
+            "id": "testimonial-name01-id", 
+            "name": "Testimonial Name 01"
+        }, 
+        {
+            "comment": "Enter your testimonial source here.", 
+            "type": "text", 
+            "id": "testimonial-source01-id", 
+            "name": "Testimonial Source 01"
+        }, 
+        {
+            "comment": "Enter your testimonial text here.", 
+            "type": "text", 
+            "id": "testimonial-text01-id", 
+            "name": "Testimonial Text 01"
+        }, 
+        {
+            "comment": "Hide or show this testimonial box.", 
+            "type": "container", 
+            "id": "testimonial-right-id", 
+            "name": "Testimonial 02"
+        }, 
+        {
+            "comment": "Insert your testimonial image here. Recomended size is 132 x 132 pixels. Image will automatically be rounded.", 
+            "data": {
+                "max-width": 132, 
+                "max-height": 132
+            }, 
+            "type": "image", 
+            "id": "testimonial-img02-id", 
+            "name": "Testimonial Image 02"
+        }, 
+        {
+            "type": "container", 
+            "id": "box-text1-id", 
+            "name": "box-text1-id"
+        }, 
+        {
+            "comment": "Enter your testimonial name here.", 
+            "type": "text", 
+            "id": "testimonial-name02-id", 
+            "name": "Testimonial Name 02"
+        }, 
+        {
+            "comment": "Enter your testimonial source here.", 
+            "type": "text", 
+            "id": "testimonial-source02-id", 
+            "name": "Testimonial Source 02"
+        }, 
+        {
+            "comment": "Enter your testimonial text here.", 
+            "type": "text", 
+            "id": "testimonial-text02-id", 
+            "name": "Testimonial Text 02"
+        }, 
+        {
+            "type": "container", 
+            "id": "footer-container-id", 
+            "name": "Footer Container"
+        }, 
+        {
+            "type": "container", 
+            "id": "footer-center-id", 
+            "name": "footer-center-id"
+        }, 
+        {
+            "comment": "Enter your footer text here.", 
+            "type": "text", 
+            "id": "footer-text-left-id", 
+            "name": "Footer Text Left"
+        }, 
+        {
+            "comment": "Enter your footer text here.", 
+            "type": "text", 
+            "id": "footer-text-right-id", 
+            "name": "Footer Text Right"
+        }
+    ], 
+    "migrate": {
+        "footer-text-right-id": "footer-text-right", 
+        "privacy-id": "privacy", 
+        "list-item02-id": "list-item02", 
+        "testimonial-divider-id": "testimonial-divider", 
+        "content-headline-id": "content-headline", 
+        "testimonial-source02-id": "testimonial-source02", 
+        "list-item01-id": "list-item01", 
+        "footer-text-left-id": "footer-text-left", 
+        "testimonial-right-id": "testimonial-right", 
+        "header-container-id": "header-container", 
+        "testimonial-name01-id": "testimonial-name01", 
+        "book-id": "book", 
+        "feature-content-id": "feature-content", 
+        "header-link-id": "header-link", 
+        "testimonial-img01-id": "testimonial-img01", 
+        "content-id": "content", 
+        "testimonial-source01-id": "testimonial-source01", 
+        "bullet-icon1-id": "bullet-icon1", 
+        "book-subtext-id": "book-subtext", 
+        "testimonial-img02-id": "testimonial-img02", 
+        "testimonial-text01-id": "testimonial-text01", 
+        "bullet-icon2-id": "bullet-icon2", 
+        "button-id": "button", 
+        "testimonial-text02-id": "testimonial-text02", 
+        "list-item03-id": "list-item03", 
+        "privacy-icon-id": "privacy-icon", 
+        "bullet-icon3-id": "bullet-icon3", 
+        "testimonial-name02-id": "testimonial-name02", 
+        "testimonial-left-id": "testimonial-left", 
+        "content-subheadline-id": "content-subheadline"
+    }
+}
